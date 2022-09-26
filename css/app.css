@@ -1,0 +1,57 @@
+html{
+    box-sizing: border-box;
+    font-size: 65.2%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    background-color: rgb(219, 219, 219);
+}
+@media (min-width: 720px) {
+    .calculadora {
+        margin: 0 15rem;
+        padding: 4rem;
+        border: 2px solid #000;
+    }
+}
+@media (min-width: 1200px) {
+    .calculadora {
+        margin: 0 40rem;
+    }
+}
+.calculadora{
+    
+    
+}
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+.btn-finales{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+button{
+    height: 8rem;
+    font-size: 4rem;
+    color: white;
+    background-color: #000;
+    font-weight: 200;
+}
+
+.bg-operador{
+    background-color: rgb(57, 57, 57);
+}
+
+.pantalla{
+    appearance: textfield;
+    width: 100%;
+    font-size: 7rem;
+    margin: 3rem 0;
+    background-color: #000;
+    color: white;
+    text-align: end;
+    font-family: 'Orbitron', sans-serif;
+}

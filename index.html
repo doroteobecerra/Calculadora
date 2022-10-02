@@ -11,28 +11,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="calculadora">
-        <input type="textfield" value="" id="pantalla" class="pantalla" autocomplete="off" readonly>
-        <div class="botones">
-            <button id="bt7" value="7" onclick="pantalla.value+='7'">7</button>
-            <button onclick="pantalla.value+='8'">8</button>
-            <button onclick="pantalla.value+='9'">9</button>
-            <button class="bg-operador" onclick="pantalla.value+='*'">X</button>
-            <button onclick="pantalla.value+='4'">4</button>
-            <button onclick="pantalla.value+='5'">5</button>
-            <button onclick="pantalla.value+='6'">6</button>
-            <button class="bg-operador" onclick="pantalla.value+='-'">-</button>
-            <button onclick="pantalla.value+='1'">1</button>
-            <button onclick="pantalla.value+='2'">2</button>
-            <button onclick="pantalla.value+='3'">3</button>
-            <button class="bg-operador" onclick="pantalla.value+='+'">+</button>
-            <button onclick="pantalla.value=''">C</button>
-            <button onclick="pantalla.value+='0'">0</button>
-            <button class="bg-operador" class="bg-operador" onclick="pantalla.value+='/'">/</button>
-            <button class="bg-operador" value="=" onclick="pantalla.value=eval(pantalla.value)">=</button >
+    <div class="contenedor-calculadora">
+        <div class="calculadora">
+            <input type="textfield" value="" id="pantalla" class="pantalla" autocomplete="off" readonly>
+            <div class="botones">
+                <button id="bt7" value="7" onclick="pantalla.value+='7'">7</button>
+                <button onclick="pantalla.value+='8'">8</button>
+                <button onclick="pantalla.value+='9'">9</button>
+                <button class="bg-operador" onclick="pantalla.value+='*'">X</button>
+                <button onclick="pantalla.value+='4'">4</button>
+                <button onclick="pantalla.value+='5'">5</button>
+                <button onclick="pantalla.value+='6'">6</button>
+                <button class="bg-operador" onclick="pantalla.value+='-'">-</button>
+                <button onclick="pantalla.value+='1'">1</button>
+                <button onclick="pantalla.value+='2'">2</button>
+                <button onclick="pantalla.value+='3'">3</button>
+                <button class="bg-operador" onclick="pantalla.value+='+'">+</button>
+                <button onclick="pantalla.value=''">C</button>
+                <button onclick="pantalla.value+='0'">0</button>
+                <button class="bg-operador" class="bg-operador" onclick="pantalla.value+='/'">/</button>
+                <button class="bg-operador" value="=" onclick="pantalla.value=eval(pantalla.value)">=</button >
+            </div>
         </div>
     </div>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
